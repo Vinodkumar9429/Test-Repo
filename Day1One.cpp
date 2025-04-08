@@ -32,6 +32,39 @@ int main(){
         cout<<"Bhai ghar math jana, Dady belt pakad ke wait kar raha hoga"<<endl;
     }
 
+    cout<<endl;
+
+    cout<<"This is the beginning of switch case"<<endl;
+
+    int x, y, z;
+    cout<<"Enter two number to perform calculations"<<endl;
+    cin >>x>>y;
+    cout<<"Enter two numbers based on the operation you want to perform form the list below :"<<endl;
+
+    cout<<"1)Addition"<<endl;
+    cout<<"2)Subtraction"<<endl;
+    cout<<"3)Multiplication"<<endl;
+    cout<<"4)Division"<<endl;
+    cin >> z;
+
+    switch (z) {
+        case 1 : 
+        cout<<"The addition of these numbers is :"<<x+y<<endl;
+        break;
+        
+        case 2 :
+        cout<<"The subtraction of these numbers is :"<<x-y<<endl;
+        break;
+        
+        case 3:
+        cout<<"The multiplication of these numbers is :"<<x*y<<endl;
+        break;
+        
+        case 4:
+        cout<<"The division of these numbers is :"<<x/y<<endl;
+        break;
+    }
+
    
 
     return 0;
