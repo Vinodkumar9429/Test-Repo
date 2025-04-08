@@ -8,7 +8,7 @@ int main(){
     cin >> marks;
 
     if ( marks == 0){
-        cout<<"fuck you!"<<endl;
+        cout<<"Heck you!"<<endl;
     }
     else if (marks == 100){
         cout<<"Khabhi Ghar Ke bahar bhi jaya karo Beta!"<<endl;
