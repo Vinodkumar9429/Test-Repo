@@ -63,6 +63,10 @@ int main(){
         case 4:
         cout<<"The division of these numbers is :"<<x/y<<endl;
         break;
+
+        default:
+        cout<<"Invalid"<<endl;
+        break;
     }
 
    
