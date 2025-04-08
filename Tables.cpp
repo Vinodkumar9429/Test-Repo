@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int x;
-    cout<<"Enter the number whose table you'd like to print"<<endl;
+    cout<<"Enter Any Number for it's table to be printed : "<<endl;
     cin>>x;
     for(int i = 1; i <= 10; i++){
         cout<<x<<" x "<<i<<" = "<<x*i<<endl;
