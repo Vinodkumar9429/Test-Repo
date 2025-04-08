@@ -9,6 +9,7 @@ int main(){
     for(int i = 1; i <= 10; i++){
         cout<<x<<" x "<<i<<" = "<<x*i<<endl;
     }
+    cout<<"This is an extra line added to practice GIT commands"<<endl;
 
     return 0;
 }
